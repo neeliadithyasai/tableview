@@ -11,12 +11,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tblcountry: UITableView!
-    var countryNames = ["afghanistan","india", "angola","newzealand", "australia", "france", "canada "]
+    lazy var countries : [country] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    func loadCountries(){
+        
+        country.append
+    }
    
 }
 extension ViewController: UITableViewDataSource, UITableViewDelegate
