@@ -10,11 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tblcountry: UITableView!
+    var countryNames = ["afghanistan","india", "angola","newzealand", "australia", "france", "canada "]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+   
 }
-
+extension ViewController: UITableViewDataSource, UITableViewDelegate
+   
+{
+   
+    func numberofsections(in tableview: UITableView) -> Int
+       {
+           return 1
+           
+       }
+    func tableView(_ table: UITableView, numberOfRowsInSection section: Int) -> Int {
+           return countryNames.count
+           
+       }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell")
+        cell?.textLabel?.text = countryNames[indexPath.row]
+        return cell!
+       }
+   
+}
