@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A97C3062411BDC900079AA3 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A97C3052411BDC900079AA3 /* DataStorage.swift */; };
+		7A97C3082411C67E00079AA3 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A97C3072411C67E00079AA3 /* MenuTableViewController.swift */; };
 		9BE3DD6324108BB100CD2AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3DD6224108BB100CD2AB9 /* AppDelegate.swift */; };
 		9BE3DD6524108BB100CD2AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3DD6424108BB100CD2AB9 /* SceneDelegate.swift */; };
 		9BE3DD6724108BB100CD2AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3DD6624108BB100CD2AB9 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A97C3052411BDC900079AA3 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		7A97C3072411C67E00079AA3 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		9BE3DD5F24108BB100CD2AB9 /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE3DD6224108BB100CD2AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE3DD6424108BB100CD2AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				9BE3DD6D24108BB400CD2AB9 /* LaunchScreen.storyboard */,
 				9BE3DD7024108BB400CD2AB9 /* Info.plist */,
 				9BE3DD762410983500CD2AB9 /* country.swift */,
+				7A97C3052411BDC900079AA3 /* DataStorage.swift */,
+				7A97C3072411C67E00079AA3 /* MenuTableViewController.swift */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				9BE3DD772410983500CD2AB9 /* country.swift in Sources */,
 				9BE3DD6724108BB100CD2AB9 /* ViewController.swift in Sources */,
+				7A97C3082411C67E00079AA3 /* MenuTableViewController.swift in Sources */,
+				7A97C3062411BDC900079AA3 /* DataStorage.swift in Sources */,
 				9BE3DD6324108BB100CD2AB9 /* AppDelegate.swift in Sources */,
 				9BE3DD6524108BB100CD2AB9 /* SceneDelegate.swift in Sources */,
 			);

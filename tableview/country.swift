@@ -8,16 +8,15 @@
 
 import Foundation
 import UIKit
-
-class country
-{
-    var name: String
-    var capital: String
-    var flag: UIImage
-    
-    init(name: String, capital: String,flag: UIImage) {
-        self.name = name
-        self.capital =capital
-        self.flag = flag
-    }
+class Country {
+  var name: String
+  var capital: String
+  var flag: UIImage
+   
+  init(name: String, capital: String, flag : UIImage) {
+    self.name = name
+    self.flag = flag
+    self.capital = capital
+  }
+   
 }
